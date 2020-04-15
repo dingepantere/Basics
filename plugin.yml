@@ -1,0 +1,53 @@
+name: OzyrisBasics
+main: fr.dingepantere.Main
+version: 1
+author: dingepantere
+commands:
+  fly:
+    description: Permet de faire s'envoler quelqu'un
+    permission: fly.use
+  gmc:
+    description: Permet de passer un joueur en gamemode Creatif
+    permission: gm.use
+  gms:
+    description: Permet de passer un joueur en gamemode Survie
+    permission: gm.use
+  gma:
+    description: Permet de passer un joueur en gamemode Aventure
+    permission: gm.use
+  gmsp:
+    description: Permet de passer un joueur en gamemode Spectateur
+    permission: gm.use
+  gm1:
+    description: Permet de passer un joueur en gamemode Creatif
+    permission: gm.use
+  gm0:
+    description: Permet de passer un joueur en gamemode Survie
+    permission: gm.use
+  gm2:
+    description: Permet de passer un joueur en gamemode Aventure
+    permission: gm.use
+  gm3:
+    description: Permet de passer un joueur en gamemode Spectateur
+    permission: gm.use
+  gm:
+    description: Permet de changer le gamemode d'un joueur
+    permission: dinge.gamemode.use
+  clear:
+    description: Permet de vider l'inventaire d'un joueur
+    permission: clear.use
+  invsee:
+    description: Permet de voir l'inventaire d'un joueur
+    permission: inv.use
+  top:
+    description: Permet d'aller a la surface
+    permission: top.use
+  feed:
+    description: Permet de remplir la barre de nourritue d'un joueur
+    permission: feed.use
+  heal:
+    description: Permet de soigner un joueur
+    permission: heal.use
+  speed:
+    description: Permet d'augmenter la vitesse d'un joueur
+    permission: speed.use

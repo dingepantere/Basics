@@ -1,0 +1,46 @@
+message:
+  cmd:
+    playernotfind: "Le joueur n'a pas été trouvé"
+    isnotplayer: "Vous devez etre un joueur pour exectuter cette commande"
+    
+    top:
+      teleport: "Vous venez d'être téléporté à la surface"
+      withother:
+        1: "Vous venez de téléporter " #+ pseudo
+        2: " à la surface" # pseudo +
+        
+    clear:
+      cleared: "Votre inventaire vien d'etre supprimé"
+      withother: "Vous venez de supprimer l'inventaire de " #+ pseudo
+    
+    feed:
+      feeded: "Vous venez d'etre nourrit"
+      withother: "Vous venez de nourrire " #+ pseudo
+    
+    fly:
+      can: "Vous pouvez désormais voler"
+      can't: "Vous ne pouvez plus voler"
+    
+    gamemode:
+      wrong: "Commande incorrect : /gm <s|c|a|sp>"
+      now: "Vous etes désormais en gamemode " #+ gamemode
+      withother:
+        wrong: "Commande incorrect : /gm <pseudo> <s|c|a|sp>"
+        now: " est désormais en gamemode " # pseudo + this + gamemode
+    
+    heal:
+      healed: "Vous venez d'être soigné"
+      withother: "Vous venez de soigner " #+ pseudo
+    
+    invsee:
+      sameplayer: "Vous ne pouvez pas regarder votre propre inventaire"
+    
+    speed:
+      wrong: "Commande incorrect : /speed <nombre>"
+      reset: "Votre vitesse vien d'être réinitialisé"
+      now: "Venez allez désormais à la vitesse " #+ speed
+      below: "Vous ne pouvez pas choisir un nombre negatif"
+      withother:
+        wrong: "Commande incorrect : /speed <pseudo> <nombre>"
+        reset: "Vous venez de réinitialiser la vitesse de " #+ pseudo
+        now: " va désormais a la vitesse " # pseudo + this + speed
